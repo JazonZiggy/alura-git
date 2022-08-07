@@ -36,6 +36,17 @@
         Faz um commit dos arquivos que foram modificados na pasta que o git add esta acompanhando.
     A mensagem passada após o parametro -m é para ser bem descritiva do motivo do commit
     </pre>
+    <h3>git push "nomedoRepositorioRemoto" "branch a 'ser empurrada'"</h3>
+    <pre>
+        Faz o upload do repositorio local para o repositorio remoto
+    Os parametros que foram passados são os nomes dos repositorios remotos e a branch que sera feito o 
+    upload.
+    </pre>
+    <h3>git pull "nomedoRepositorioRemoto" "branch a ser feito o download"</h3>
+    <pre>
+        Faz o download dos arquivos de um determinado repositorio
+    </pre>
+
     <h3>git clone "pasta de um projeto ou url"</h3>
     <pre>
         Baixa um projeto para a pasta local passando um parametro que pode ser a pasta ou url
@@ -49,6 +60,10 @@
         <strong>git remote add nome-repositorio caminho/para/o/repositorio</strong>
         Desta forma teremos um link do nosso repositório local com o repositório remoto,
         que chamamos de nome-repositorio, que está armazenado em caminho/para/o/repositorio.
+    </pre>
+    <pre>
+        <strong>git remote rename <i>nomeAtual nomeNovo</i> </strong>
+        Renomeia o nome do repositorio Remoto.
     </pre>
     <h3>git log</h3>
     <pre>
