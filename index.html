@@ -17,7 +17,9 @@
     <p>Cria um repositorio a partir de uma pasta</p>
     <h5>Parametros</h5>
     <pre>
-    --bare F:/ProjetosAlura/servidorGit/
+    <strong>--bare</strong>  - Com este comando nós criamos um repositório que não terá a working tree, ou seja, 
+    não conterá uma cópia dos nossos arquivos. Como o repositório servirá apenas como servidor,
+    para que outros membros da equipe sincronizem seus trabalhos, poupamos espaço de armazenamento desta forma.
     </pre>
     <h3>git status</h3>
     <p>Verifica o status dos arquivos na pasta</p>
@@ -33,6 +35,20 @@
     <pre>
         Faz um commit dos arquivos que foram modificados na pasta que o git add esta acompanhando.
     A mensagem passada após o parametro -m é para ser bem descritiva do motivo do commit
+    </pre>
+    <h3>git clone "pasta de um projeto ou url"</h3>
+    <pre>
+        Baixa um projeto para a pasta local passando um parametro que pode ser a pasta ou url
+    </pre>
+    <h3>git remote</h3>
+    <pre>
+        Lista todos os repositorios remotos que o repositorio local conhece
+    </pre>
+    <h5>Parametros</h5>
+    <pre>
+        <strong>git remote add nome-repositorio caminho/para/o/repositorio</strong>
+        Desta forma teremos um link do nosso repositório local com o repositório remoto,
+        que chamamos de nome-repositorio, que está armazenado em caminho/para/o/repositorio.
     </pre>
     <h3>git log</h3>
     <pre>
